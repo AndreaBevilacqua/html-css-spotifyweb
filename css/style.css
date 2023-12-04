@@ -10,6 +10,26 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #141922;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    max-height: 100vh;
+    height: 100vh;
+}
+
+#big-logo {
+    width: 75%;
+    margin-bottom: 24px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+hr {
+    color: #a8a8a8;
+    height: 1px;
+    margin: 20px 0;
 }
 
 /* Utils */
@@ -18,3 +38,82 @@ body {
     max-width: 1080px;
     margin: 0 auto;
 }
+
+.flex {
+    display: flex;
+}
+
+/* Sidebar */
+
+
+.sidebar {
+    background-color: black;
+    position: relative;
+    width: 230px;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #a8a8a8;
+    font-size: 13px;
+}
+
+.sidebar img {
+    width: 15%;
+    margin-right: 8px;
+}
+
+/* Header Sidebar */
+
+.header-sidebar li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header-sidebar ul {
+    margin-bottom: 30px;
+}
+
+/* Main sidebar */
+
+.playlist-title {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.create {
+    display: flex;
+    align-items: center;
+    gap: 10PX;
+    margin-bottom: 20px;
+}
+
+.plus-button i {
+    background-color: #a8a8a8;
+    font-size: 1.5rem;
+    padding: 5px 8px;
+}
+
+.playlist li {
+    margin-bottom: 14px;
+}
+
+/* Sidebar Footer */
+
+.footer-sidebar {
+    margin-top: 30px;
+}
+
+#profile {
+    width: 19%;
+    background-color: #a8a8a8;
+    border-radius: 50%;
+
+}
+
+
+
+
