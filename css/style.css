@@ -17,7 +17,6 @@ body {
     margin: 0 -1rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .col {
@@ -63,6 +62,17 @@ main {
 
 .flex {
     display: flex;
+}
+
+.col-50 {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.3rem;
+    color: #C1C1C1;
+    padding: 5px;
 }
 
 /* Sidebar */
@@ -241,29 +251,84 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-basis: calc(100% / 3);
 }
 
 /* Footer-left */
 
 .footer-player-left {
+    flex-basis: 25%;
     display: flex;
-    
+    align-items: center;
+    color: #868686;
 }
 
-#sinister {
-    width: 25%;
+.footer-player-left img {
+    max-width: 50px;
     margin-right: 10px;
-    display: block;
+}
+
+h6 {
+    color: white;
+    font-size: 13px;
+}
+
+.footer-player-left span {
+    font-size: 10px;
+}
+
+
+.song-like {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 5px;
+}
+
+
+/* Footer center */
+
+.footer-player-center {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.time {
+    font-size: 12px;
+}
+
+.col-50 .progress-bar {
+    width: 100%;
+}
+
+.col-50 .current-progress {
+    width: 30%;
 }
 
 /* Footer-right */
 
 .footer-player-right {
+    flex-basis: 25%;
     display: flex;
-    flex-direction: row;
-    gap: 10px;
-    color: #a8a8a8;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 14px;
+    color: #C1C1C1;
+}
+
+.progress-bar {
+    width: 100px;
+    height: 4px;
+    background-color: #5A5A5A;
+    border-radius: 20px;  
+}
+
+.current-progress {
+    width: 30px;
+    height: 4px;
+    background-color: #C1C1C1;
+    border-radius: 20px;
 }
 
 
