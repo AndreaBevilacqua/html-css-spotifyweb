@@ -241,7 +241,37 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-basis: calc(100% / 3);
 }
+
+/* Footer-left */
+
+.footer-player-left {
+    display: flex;
+    
+}
+
+#sinister {
+    width: 25%;
+    margin-right: 10px;
+    display: block;
+}
+
+/* Footer-right */
+
+.footer-player-right {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: #a8a8a8;
+}
+
+
+
+
+
+
+
 
 
 
