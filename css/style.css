@@ -13,6 +13,17 @@ body {
     background-color: #141922;
 }
 
+.row {
+    margin: 0 -1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    padding: 0 1rem;
+}
+
 #big-logo {
     width: 75%;
     margin-bottom: 24px;
@@ -31,6 +42,10 @@ ul {
 main {
     flex-grow: 1;
     overflow: auto;
+}
+
+.main-content {
+    padding: 15px;
 }
 
 /* Utils */
@@ -132,7 +147,7 @@ main {
     color: white;
 }
 
-/* Upgrade Navbar */
+/* Upgrade section */
 
 header {
     height: 80px;
@@ -156,10 +171,65 @@ header a {
     border: 1px solid white;
     border-radius: 20px;
     font-size: 13px
-    
-
 }
 
+/* Main Navbar */
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    text-transform: uppercase;
+    color: #a8a8a8;
+    font-size: 12px;
+    line-height: 2.3;
+    margin-bottom: 30px;
+}
+
+/* Recently played section */
+
+h2 {
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.col {
+    flex-basis: 50%;
+    margin-bottom: 10px;
+}
+
+.col img {
+    width: 100%;
+}
+
+.disc-title {
+    color: white;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.subtitle {
+    font-size: 12px;
+    color: #a8a8a8;
+}
+
+.card {
+    text-align: center;
+}
+
+/* created-for and popular artists section */
+
+#youg {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#einaudi {
+    border-radius: 50%;
+    margin-top: 20px;
+}
 
 /* Footer player */
 
