@@ -163,6 +163,12 @@ li:hover {
     align-items: center;
     gap: 10PX;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.create:hover {
+    color: white;
+    text-shadow: 0 0 2px white;
 }
 
 .plus-button i {
@@ -194,6 +200,12 @@ li:hover {
     gap: 10px;
     margin-bottom: 20px;
     padding-left: 8px;
+    cursor: pointer;
+}
+
+.installation-section:hover {
+    color: white;
+    text-shadow: 0 0 2px white;
 }
 
 .author-section {
@@ -228,6 +240,10 @@ header a {
     border: 1px solid white;
     border-radius: 20px;
     font-size: 13px
+}
+
+header a:hover {
+    transform: scale(1.8);
 }
 
 /* Main Navbar */
@@ -274,6 +290,30 @@ h2 {
 
 .card {
     text-align: center;
+}
+
+figure {
+    position: relative;
+}
+
+.player {
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+figure:hover .player {
+    display: flex;
 }
 
 /* created-for and popular artists section */
@@ -331,6 +371,15 @@ h6 {
     gap: 5px;
 }
 
+.fa-heart:hover,
+.fa-folder:hover {
+    color: white;
+}
+
+.song-name span:hover {
+    text-decoration: underline;
+}
+
 
 /* Footer center */
 
@@ -351,6 +400,15 @@ h6 {
 
 .col-50 .current-progress {
     width: 30%;
+}
+
+.footer-player-center i:hover {
+    color: white;
+    text-shadow: 0 0 2px white;
+}
+
+.footer-player-center :nth-child(3):hover {
+    transform: scale(1.1);
 }
 
 /* Footer-right */
