@@ -1,10 +1,7 @@
+
 @media screen and (min-width:768px){
     .col {
         flex-basis: 25%;
-    }
-
-    .sidebar {
-        flex-basis: 190px;
     }
 }
 
