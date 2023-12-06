@@ -243,13 +243,13 @@ header a {
     font-size: 13px
 }
 
-header a:hover {
+/* header a:hover {
     transform: scale(1.2);
-}
-
-/* #upgrade:hover {
-    font-size: 14px;
 } */
+
+#upgrade:hover {
+    font-size: 14px;
+} 
 
 /* Main Navbar */
 
