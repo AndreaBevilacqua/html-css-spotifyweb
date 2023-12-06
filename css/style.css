@@ -17,6 +17,7 @@ body {
     margin: 0 -1rem;
     display: flex;
     flex-wrap: wrap;
+    margin-right: -0;
 }
 
 .col {
@@ -52,7 +53,7 @@ li.active::after {
     width: 30%;
     height: 2px;
     background-color: #adf32f;
-    margin: 3px auto;
+    margin:  3px auto;
 }
 
 ul {
@@ -242,8 +243,8 @@ header a {
     font-size: 13px
 }
 
-header a:hover {
-    transform: scale(1.8);
+#upgrade:hover {
+    transform: scale(1.2);
 }
 
 /* Main Navbar */
