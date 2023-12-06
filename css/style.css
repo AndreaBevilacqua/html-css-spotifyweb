@@ -47,13 +47,22 @@ main {
     padding: 15px;
 }
 
+li.active::after {
+    content: '';
+    display: block;
+    width: 30%;
+    height: 2px;
+    background-color: #adf32f;
+    margin: 3px auto;
+}
+
 ul {
     cursor: pointer;
 }
 
 li:hover {
     color: white;
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 2px white;
 }
 
 /* Utils */
@@ -338,6 +347,11 @@ h6 {
     height: 4px;
     background-color: #C1C1C1;
     border-radius: 20px;
+    cursor: pointer;
+}
+
+.current-progress:hover {
+    background-color: #adf32f;
 }
 
 
