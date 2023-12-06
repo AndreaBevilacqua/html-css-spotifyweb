@@ -435,11 +435,31 @@ h6 {
     background-color: #C1C1C1;
     border-radius: 20px;
     cursor: pointer;
+    position: relative;
+}
+
+.circle {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(187, 187, 187);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    translate: 50% -50%;
+    box-shadow: 0px 1px 4px rgb(61, 61, 61);
+    display: none;
 }
 
 .current-progress:hover {
     background-color: #adf32f;
 }
+
+.current-progress:hover .circle {
+    display: inline;
+}
+
+
 
 
 
