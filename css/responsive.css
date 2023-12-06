@@ -1,3 +1,41 @@
+@media screen and (min-width:576px) {
+    .sidebar {
+        flex-basis: 200px;
+    }
+
+    .sidebar-top img {
+        width: 15%;
+    }
+
+    #small-logo {
+        display: none;
+    }
+
+    #big-logo {
+        display: block;
+    }
+
+    .header-sidebar span {
+        display: inline;
+    }
+
+    .main-sidebar {
+        display: block;
+    }
+
+    .greyline {
+        display: block;
+    }
+
+    .install,
+    .author {
+        display: block;
+    }
+
+    .installation-section {
+        text-align: center;
+    }
+}
 
 @media screen and (min-width:768px){
     .col {
